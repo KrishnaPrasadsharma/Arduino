@@ -106,17 +106,17 @@ void stopMotors(){
 void reverse(){
   digitalWrite(motorA1, LOW);
   digitalWrite(motorA2, HIGH);
-  analogWrite(enableA, 100); 
+  analogWrite(enableA, 102.5); 
 
   digitalWrite(motorB1, LOW);
   digitalWrite(motorB2, HIGH);
-  analogWrite(enableB, 100);
+  analogWrite(enableB, 102.5);
 }
 
 void driveForward(){
   digitalWrite(motorA1, HIGH);
   digitalWrite(motorA2, LOW);
-  analogWrite(enableA, 100);
+  analogWrite(enableA, 102.5);
   
   digitalWrite(motorB1, HIGH);
   digitalWrite(motorB2, LOW);
@@ -126,20 +126,20 @@ void driveForward(){
 void rightturn(){
   digitalWrite(motorA1, LOW);
   digitalWrite(motorA2, HIGH);
-  analogWrite(enableA, 100); 
+  analogWrite(enableA, 102.5); 
 
   digitalWrite(motorB1, HIGH);
   digitalWrite(motorB2, LOW);
-  analogWrite(enableB, 100);
+  analogWrite(enableB, 102.5);
 }
 
 void leftturn(){
   digitalWrite(motorA1, HIGH);
   digitalWrite(motorA2, LOW);
-  analogWrite(enableA, 100);
+  analogWrite(enableA, 102.5);
   
   digitalWrite(motorB1, LOW);
   digitalWrite(motorB2, HIGH);
-  analogWrite(enableB, 100);
+  analogWrite(enableB, 102.5);
  
 }
